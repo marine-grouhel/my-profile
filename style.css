@@ -1,0 +1,142 @@
+body {
+	background-color: #EDC988; 
+	color: #463333; 
+	font-family: 'Playfair Display', serif;
+	font-size: 20px; 
+	letter-spacing:1px;
+}
+
+.img-circle {
+	border-radius: 70%;
+	margin: 10px;
+}
+
+#img {
+	width: 110px;
+	margin: 10px auto;
+}
+	
+h1 {
+	color: #91091E;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold 700;
+    letter-spacing: normal;
+    font-size: 50px;
+    text-align: center;
+}
+	
+h2 {
+	color: #C24914;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    letter-spacing: normal;
+    font-size: 37px;
+    text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #59886B;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Syne Mono', monospace;
+	text-align: center;
+}	
+
+a:hover {
+	color: black;
+}
+
+@media (max-width: 750px) {
+	.container{
+		width: 550px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 200px;
+	}
+}
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow:0 10px 30px rgb(0 0 0 /30%);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+#card-circle{
+	border-radius: 200px;
+}
+
+#card-round {
+	border-radius: 100px;
+}
+
+.btn-green{
+	background-color: #59886B;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.btn-green:hover{
+	background-color: rgb(180, 180, 180);
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: #59886B; 
+}
+
+.list-inline i:hover{
+	color: rgb(230, 230, 230); 
+}
+
+.list {
+	list-style: none;
+	padding-left: 0px;
+	text-align: left;
+}
+
+#introduction p{
+	margin-bottom: 30px;
+}
+
+#introduction{
+	background-color: #EDC988;
+	box-shadow: none;
+}
+
+#link{
+	text-decoration: none;
+	color: #463333;
+	font-weight: bold;
+	font-size: 20px; 
+	letter-spacing:1px;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}	
+
+#link:hover{
+	color: rgb(210, 210, 210);
+}
